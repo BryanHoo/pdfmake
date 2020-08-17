@@ -23,6 +23,17 @@
 - pdfmake uses English fonts by default, and the fork replaces the English fonts with the open source Siyuan boldface
 - In order to reduce the font file size, only regular fonts are used, so when the font is set to italics and bold, the font still displays regular fonts
 
+```javascript
+pdfMake.fonts = {
+	SourceHanSC: {
+		normal: "SourceHanSansCN-Regular.ttf",
+		bold: "SourceHanSansCN-Regular.ttf",
+		italics: "SourceHanSansCN-Regular.ttf",
+		bolditalics: "SourceHanSansCN-Regular.ttf",
+	},
+};
+```
+
 PDF document generation library for server-side and client-side in pure JavaScript.
 
 Check out [the playground](http://bpampuch.github.io/pdfmake/playground.html) and [examples](https://github.com/bpampuch/pdfmake/tree/master/examples).
