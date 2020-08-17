@@ -1,6 +1,6 @@
 {
-  "name": "pdfmake",
-  "version": "0.2.0-alpha.0",
+  "name": "pdfmake-zh",
+  "version": "0.0.1",
   "description": "Client/server side PDF printing in pure JavaScript",
   "main": "js/index.js",
   "esnext": "src/index.js",
@@ -58,13 +58,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bpampuch/pdfmake.git"
+    "url": "git@github.com:BryanHoo/pdfmake.git"
   },
   "keywords": [
     "pdf",
     "javascript",
     "printing",
-    "layout"
+    "layout",
+    "中文"
   ],
   "author": "Bartek Pampuch <bartosz.pampuch@gmail.com>",
   "license": "MIT",
