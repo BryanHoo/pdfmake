@@ -24,6 +24,19 @@
 - In order to reduce the font file size, only regular fonts are used, so when the font is set to italics and bold, the font still displays regular fonts
 
 ```javascript
+var pdfMake = require('pdfmake-zh/build/pdfmake.js');
+var pdfFonts = require('pdfmake-zh/build/vfs_fonts.js');
+pdfMake.vfs = pdfFonts.pdfMake.vfs;
+```
+or
+
+```javascript
+import pdfMake from "pdfmake-zh/build/pdfmake";
+import pdfFonts from "pdfmake-zh/build/vfs_fonts";
+pdfMake.vfs = pdfFonts.pdfMake.vfs;
+```
+
+```javascript
 pdfMake.fonts = {
 	SourceHanSC: {
 		normal: "SourceHanSansCN-Regular.ttf",
